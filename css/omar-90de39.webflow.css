@@ -1,0 +1,459 @@
+.main-wrapper {
+  height: 100%;
+}
+
+.navbar-wrapper {
+  z-index: 100;
+  background-color: #c9bbb2;
+  border-bottom: 3px solid #dd722a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15%;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.footer-wrapper {
+  background-color: #dd722a;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 140px 15%;
+  display: flex;
+}
+
+.body {
+  background-color: #c9bbb2;
+  font-family: Racing Sans One, sans-serif;
+}
+
+.header-section {
+  height: 100vh;
+  background-image: linear-gradient(to top, #c9bbb2, rgba(255, 255, 255, 0) 24%), url('../images/Frontpage_Image.png');
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.header-img {
+  margin-bottom: 100px;
+  display: block;
+  transform: rotate(-15deg);
+}
+
+.navbar-logo {
+  width: 100px;
+}
+
+.links {
+  justify-content: space-between;
+  display: flex;
+}
+
+.navbar-links {
+  color: #333;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.navbar-button {
+  background-color: #333;
+  border: 3px solid #dd722a;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size: 15px;
+  line-height: 100%;
+}
+
+.header-image {
+  margin-left: 15%;
+}
+
+.about-section {
+  height: 100vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0) 76%, #c9bbb2), url('../images/About-Image.png');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, contain;
+  justify-content: center;
+  align-items: center;
+  padding: 140px 15%;
+}
+
+.tokenomcis-section {
+  height: 100vh;
+  background-color: #dd722a;
+  background-image: url('../images/Tokenomics-2.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 140px 15%;
+}
+
+.roadmap-section {
+  height: 100vh;
+  background-color: #dd722a;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 80%, #dd722a), url('../images/Roadmap-1.png');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, contain;
+  padding: 140px 15%;
+}
+
+.faq-section {
+  background-image: url('../images/faq.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 140px 15%;
+}
+
+.about-heading {
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #dd722a;
+  margin-top: 0;
+  margin-bottom: 140px;
+  font-size: 120px;
+  font-weight: 400;
+  transform: rotate(-10deg);
+}
+
+.social-media-links {
+  width: 70px;
+  height: 70px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  outline-offset: 0px;
+  background-color: #dd722a;
+  border-radius: 100px;
+  outline: 3px solid #fff;
+  flex-direction: row;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+.social-media-image {
+  width: 45px;
+  display: inline-block;
+}
+
+.social-media-link-wrapper {
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+  display: flex;
+}
+
+.bold-text {
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #fff;
+  font-family: Racing Sans One, sans-serif;
+  font-weight: 400;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 30px;
+  line-height: 110%;
+}
+
+.about-paragraph-box {
+  background-color: #fff;
+  border: 5px solid #dd722a;
+  border-radius: 20px;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding: 50px;
+}
+
+.faq-box {
+  cursor: pointer;
+  background-color: #fff;
+  border: 5px solid #dd722a;
+  border-radius: 20px;
+  margin: 20px 12%;
+  padding: 20px;
+}
+
+.question {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 30px;
+  line-height: 110%;
+}
+
+.answer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 30px;
+  line-height: 110%;
+  display: block;
+}
+
+.disclaimer-section {
+  background-image: url('../images/Disclaimer.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 140px 15%;
+}
+
+.tokenomcis-section-copy {
+  height: 100vh;
+  padding: 140px 15%;
+}
+
+.about-heading-1 {
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #c9bbb2;
+  margin-top: 0;
+  margin-bottom: 140px;
+  font-size: 120px;
+  font-weight: 400;
+  transform: rotate(-10deg);
+}
+
+.roadmap-wrapper {
+  justify-content: space-between;
+  align-items: stretch;
+  display: flex;
+}
+
+.roadmap-box {
+  width: 30%;
+  background-color: #fff;
+  border: 5px solid #c9bbb2;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+}
+
+.roadmap-heading {
+  color: #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #c9bbb2;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+.roadmap-paragraph {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 30px;
+  line-height: 100%;
+}
+
+.tokenomics-wrapper {
+  height: 70px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  display: flex;
+}
+
+.liquidity {
+  width: 95%;
+  height: 100%;
+  background-color: #19ff00;
+  border-radius: 5px 0 0 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.dev-team {
+  width: 2.5%;
+  background-color: #449eff;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.marketing {
+  width: 2.5%;
+  background-color: #fa4040;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.tokennomics-prozent {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+._2-5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 100%;
+  transform: rotate(90deg);
+}
+
+.supply {
+  color: #000;
+  text-align: center;
+}
+
+.footer-link-box {
+  flex-direction: column;
+  display: flex;
+}
+
+.footer-heading {
+  color: #000;
+  margin-top: 0;
+  font-size: 30px;
+  line-height: 100%;
+}
+
+.footer-link {
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 479px) {
+  .navbar-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .footer-wrapper {
+    flex-direction: column-reverse;
+    padding: 60px 5%;
+    display: flex;
+  }
+
+  .header-section {
+    background-position: 70%;
+    background-size: cover;
+  }
+
+  .header-img, .header-image {
+    margin-left: 0%;
+  }
+
+  .about-section {
+    height: auto;
+    background-size: cover;
+    padding: 100px 5%;
+  }
+
+  .tokenomcis-section {
+    height: auto;
+    background-position: 45% 130%;
+    background-size: 683px;
+    padding: 60px 5% 160px;
+  }
+
+  .roadmap-section {
+    height: auto;
+    background-size: auto, cover;
+    padding: 60px 5%;
+  }
+
+  .faq-section {
+    background-position: 80% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .about-heading {
+    -webkit-text-stroke-width: 1px;
+    margin-bottom: 40px;
+    font-size: 50px;
+  }
+
+  .social-media-link-wrapper {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .bold-text {
+    -webkit-text-stroke-width: 1px;
+  }
+
+  .paragraph {
+    font-size: 15px;
+  }
+
+  .about-paragraph-box {
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 10px;
+  }
+
+  .faq-box {
+    border-radius: 10px;
+    margin: 10px 0%;
+    padding: 10px;
+  }
+
+  .question, .answer {
+    font-size: 15px;
+  }
+
+  .disclaimer-section {
+    background-size: contain;
+    padding: 60px 5%;
+  }
+
+  .about-heading-1 {
+    -webkit-text-stroke-width: 1px;
+    margin-bottom: 40px;
+    font-size: 50px;
+  }
+
+  .roadmap-wrapper {
+    flex-direction: column;
+  }
+
+  .roadmap-box {
+    width: auto;
+    margin: 10px;
+  }
+
+  .supply {
+    font-size: 20px;
+  }
+
+  .footer-link-box {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+
